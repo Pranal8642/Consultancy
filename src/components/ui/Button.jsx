@@ -1,4 +1,4 @@
-import React from "react";
+import "react";
 
 export function Button({ children, onClick, variant = "primary", className = "" }) {
   const baseStyles = "px-4 py-2 rounded-lg font-medium transition-all";
