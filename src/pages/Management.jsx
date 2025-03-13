@@ -1,6 +1,10 @@
-import  Card  from "../components/ui/card";
-import  CardContent  from "../components/ui/card";
-import  Button from "../components/ui/button";
+import { Card } from "../components/ui/Card";
+
+import { CardContent } from "../components/ui/Card";  // ✅ Use curly braces
+
+import { Button } from "../components/ui/Button";
+ // ✅ Correct way!
+
 import { useNavigate } from "react-router-dom";
 
 function Management() {

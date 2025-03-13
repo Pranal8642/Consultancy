@@ -1,6 +1,4 @@
-import "react";
-
-export function Button({ children, onClick, variant = "primary", className = "" }) {
+export  function Button({ children, onClick, variant = "primary", className = "" }) {
   const baseStyles = "px-4 py-2 rounded-lg font-medium transition-all";
   const variants = {
     primary: "bg-blue-600 text-white hover:bg-blue-700",
