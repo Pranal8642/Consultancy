@@ -1,6 +1,5 @@
 import React from "react";
-
-export function Card({ children, className = "" }) {
+ export function Card({ children, className = "" }) {
   return <div className={`bg-white shadow-md rounded-2xl p-6 ${className}`}>{children}</div>;
 }
 
